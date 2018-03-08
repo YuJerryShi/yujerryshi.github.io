@@ -2,7 +2,7 @@
 }
 
 html {
-	width: 1000px; 
+	width: 990px; 
 	margin: auto;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
 }
@@ -27,7 +27,7 @@ body {
 
 #navbar li {
 	border-radius: 5px;
-	width: 136px;
+	width: 135px;
 	padding: 8px 0px 8px 0px; 
 	display: inline;
 	margin-right: 2px;
@@ -65,7 +65,7 @@ li>a {
 }
 
 #bio-left {
-	margin: 10px;
+	margin: 20px 10px 10px 10px;
 	width: 35%;
 	float: left;
 }
@@ -109,7 +109,8 @@ li>a {
 
 .bio-main {
 	background-color: #f2f2f2;
-	border-radius: 10px;
+	border-radius: 12px;
+	font-size: 1.1em;
 }
 
 #bio-bottom {
@@ -146,4 +147,5 @@ li>a {
 
 ol>li {
 	padding: 10px;
+	font-size: 1.1em;
 }
