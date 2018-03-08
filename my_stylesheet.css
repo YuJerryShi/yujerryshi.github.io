@@ -1,0 +1,165 @@
+* {
+	border: 1px solid blue;
+}
+
+html {
+	width: 1100px; 
+	margin: auto;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+body {
+}
+
+#navbar {
+	display: auto;
+	background-color: #edeeef;
+	border-radius: 5px;
+	padding: 0px;
+	margin-bottom: 20px;
+}
+
+#navbar ul {
+	display: inline-flex;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#navbar li {
+	border-radius: 5px;
+	width: 150px;
+	padding: 8px 0px 8px 0px; 
+	display: inline;
+	margin-right: 2px;
+	float: left;
+}
+
+#navbar a {
+	margin: 0px auto 0px auto;
+	width: 100%;
+	color: black;
+	font-size: 1.3em;
+	text-decoration: none;
+}
+
+.active {
+	background-color: #caccce;
+}
+
+li>a {
+	font-size: 1.3em;
+	margin: 0px 15px 0px 15px;
+	padding: 0px 0px 0px 0px;
+	float: left;
+	text-align: center;
+	
+}
+
+.bio {
+	padding: 15px;
+	background-color:#eee;
+	border-radius: 5px;
+	width: 100%;
+	height: auto;
+	display: inline-flex;
+}
+
+#bio-left {
+	margin: 10px;
+	width: 35%;
+	float: left;
+}
+
+#bio-right {
+	margin: 10px;
+	width: 60%;
+	float: right;
+}
+
+#myname {
+	clear: both; 
+	font-size: 1.6em;
+	margin: 0px 0px -10px 0px;
+	padding: 10px 0px 0px 0px;
+}
+
+#position {
+	font-size: 1.1em;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+	margin: 0px; 
+	padding: 0px 0px 0px 10px; 
+}
+
+#university {
+	margin: -20px 0px 0px 0px;
+	padding: 0px 0px 0px 10px; 
+	font-size: 1.2em;
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+}
+
+#myname {
+
+}
+
+.divider {
+	margin: auto;
+	text-align: center; 
+
+}
+
+.bio-main {
+	background-color: #f2f2f2;
+	border-radius: 10px;
+}
+
+#bio-bottom {
+	clear: both;
+	margin-top: 10px;
+}
+
+.home-contents {
+	background-color: #f2f2f2;
+	border-radius: 10px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	padding: 0px 20px 0px 20px;
+}
+
+
+
+
+
+/*
+#bio-left {
+	width: 40%;
+	float:; left; 
+}
+
+#bio-middle {
+	width: 5%;
+	float: right; 
+}
+
+#bio-right {
+	width: 55%;
+	float: left; 
+	padding: 0px 0px 0px 0px;
+}
+*/
+
+.bio-body {
+	font-size: 1.2em;
+	padding: 10px ;
+}
+
+.pics {
+	width: 100%;
+	float: left;
+}
+
+.body_section {
+	display: auto;
+	clear: both;
+	flex-direction: column; 
+}
