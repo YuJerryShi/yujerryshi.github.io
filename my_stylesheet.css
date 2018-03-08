@@ -113,6 +113,10 @@ li>a {
 	font-size: 1.1em;
 }
 
+.topic {
+	padding-top: 10px;
+}
+
 #bio-bottom {
 	clear: both;
 	margin-top: 10px;
