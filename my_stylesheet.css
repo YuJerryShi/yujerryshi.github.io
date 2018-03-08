@@ -149,3 +149,29 @@ ol>li {
 	padding: 10px;
 	font-size: 1.1em;
 }
+
+
+.edu-row {
+	padding: 10px 0px 10px 0px;
+}
+
+.edu-degree {
+	padding: 10px;
+	list-style-type: none;
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.edu-details {
+	padding: 5px;
+	font-size: 0.9em;
+}
+
+
+#copyright{
+	padding: 10px 10px 10px 10px;
+	text-align: right; 
+	font-size: 1.2em;
+	background-color: white;
+	margin: 0px -20px 0px -20px;
+}
