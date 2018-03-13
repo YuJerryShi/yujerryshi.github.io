@@ -1,14 +1,20 @@
 * {
+	/*
+	border: 1px solid blue;
+	*/
 }
 
 html {
 	width: 990px; 
 	margin: auto;
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; 
+	overflow: scroll;
 }
 
 body {
 }
+
+/* Navigation bar handles */
 
 #navbar {
 	display: auto;
@@ -28,9 +34,10 @@ body {
 #navbar li {
 	border-radius: 5px;
 	width: 135px;
-	padding: 8px 0px 8px 0px; 
+	padding: 10px 1px 10px 1.2px; 
 	display: inline;
-	margin-right: 2px;
+	margin-right: 1px;
+	margin-left: 1px;
 	float: left;
 }
 
@@ -54,6 +61,20 @@ li>a {
 	text-align: center;
 	
 }
+
+.pics {
+	width: 100%;
+	float: left;
+}
+
+#bio-bottom {
+	clear: both;
+	margin-top: 10px;
+}
+
+
+/*-------------------*/
+/*Biography section handles*/
 
 .bio {
 	padding: 15px;
@@ -101,15 +122,29 @@ li>a {
 
 }
 
-.divider {
-	margin: auto;
-	text-align: center; 
+#table-links {
+	width: 100%;
+	text-align: center;
+	margin-top: -10px;
+	margin-bottom: 10px;
+}
 
+.bio-links {
+	text-decoration: none; 
+	color: #1529c4;
+}
+
+/*-----------------*/
+/*Main contents handles*/
+
+.text-link {
+	color: blue;
+	text-decoration: none; 
 }
 
 .bio-main {
 	background-color: #f2f2f2;
-	border-radius: 12px;
+	border-radius: 15px;
 	font-size: 1.1em;
 }
 
@@ -117,20 +152,14 @@ li>a {
 	padding-top: 10px;
 }
 
-#bio-bottom {
-	clear: both;
-	margin-top: 10px;
-}
 
 .home-contents {
 	background-color: #f2f2f2;
-	border-radius: 10px;
+	border-radius: 15px;
 	margin-top: 20px;
 	margin-bottom: 20px;
 	padding: 0px 20px 0px 20px;
 }
-
-
 
 
 .bio-body {
@@ -138,10 +167,7 @@ li>a {
 	padding: 10px ;
 }
 
-.pics {
-	width: 100%;
-	float: left;
-}
+
 
 .body_section {
 	display: auto;
