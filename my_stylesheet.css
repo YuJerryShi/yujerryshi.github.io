@@ -149,7 +149,7 @@ li>a {
 }
 
 .topic {
-	padding-top: 10px;
+	padding-top: 0px;
 }
 
 
@@ -158,7 +158,7 @@ li>a {
 	border-radius: 15px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	padding: 0px 20px 0px 20px;
+	padding: 2px 20px 2px 20px;
 }
 
 
