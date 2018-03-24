@@ -9,6 +9,7 @@ html {
 	margin: auto;
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; 
 	overflow: scroll;
+	line-height: 1.5;
 }
 
 body {
@@ -203,5 +204,19 @@ ol>li {
 	text-align: right; 
 	font-size: 1.2em;
 	background-color: white;
-	margin: 0px -20px 0px -20px;
+	margin: -5px -20px -5px -20px;
+}
+
+/* Research tab */
+
+.research-table {
+	width: 100%;
+}
+
+.research-left {
+	width: 40%;
+}
+
+.research-right {
+	width: 60%;
 }
