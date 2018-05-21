@@ -50,6 +50,10 @@ body {
 	text-decoration: none;
 }
 
+#navbar li:hover {
+	background-color: #caccce;
+}
+
 .active {
 	background-color: #caccce;
 }
