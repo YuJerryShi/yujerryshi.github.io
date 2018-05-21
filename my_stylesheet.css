@@ -103,6 +103,7 @@ li>a {
 	font-size: 1.6em;
 	margin: 0px 0px -10px 0px;
 	padding: 10px 0px 0px 0px;
+	text-align: center;
 }
 
 #position {
@@ -110,13 +111,15 @@ li>a {
 	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
 	margin: 0px; 
 	padding: 0px 0px 0px 10px; 
+	text-align: center;
 }
 
 #university {
 	margin: -20px 0px 0px 0px;
 	padding: 0px 0px 0px 10px; 
 	font-size: 1.0em;
-	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif
+	font-family:"Helvetica Neue",Helvetica,Arial,sans-serif; 
+	text-align: center;
 }
 
 #myname {
