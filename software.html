@@ -16,15 +16,110 @@
       <ul>
         <li><a href="index.html"> Home </a></li>
         <li><a href="research.html"> Research </a></li>
-        <li class="active"><a href="software.html"> Software </a></li>
-        <li><a href="publications.html"> Publications </a></li>
         <li><a href="teaching.html"> Teaching </a></li>
+        <li><a href="publications.html"> Publications </a></li>
+        <li class="active"><a href="software.html"> Software </a></li>
         <li><a href="interests.html"> Interests </a></li>
         <li><a href="contact.html"> Contact </a></li>
     </div>
 
-    <!-- Biography section -->
-    
+
+
+    <!-- Software section -->
+    <!-- GitHub -->
+    <div class="home-contents">
+      <h3> GitHub Repositories </h3>
+
+      <p>
+        Throughtout my Ph.D., I have written a number of numerical packages that implement FDTD, FDFD, RCWA, and multi-layer thin-film optimization. I have published some of the code in my 
+        <a class="text-link" href="https://github.com/YuJerryShi"> GitHub directory</a>
+        , and others will come in the near future. Please stay tuned! 
+      </p>
+    </div>
+
+    <!-- FDFD-suite --> 
+    <div class="home-contents">
+
+      <h3> 
+        FDFD-Suite
+      </h3>
+
+      <p>
+        This package contains a comprehensive list of two-dimensional finite-difference frequency-domain (FDFD) programs used to simulate how electromagnetic waves interact with various dielectric/metal geometries.
+      </p>
+
+      <p>
+        It can efficiently calculate the field patterns in both TE and TM polarizations in the following simulations:
+
+        <ul>
+          <li>
+            <strong>Scattering</strong>: Compute how electromagnetic waves scatter off of a dielectric/metal object
+          </li>
+
+          <li>
+            <strong>Resonator mode</strong>: Compute the natural resonating modes and frequencies of a 2D dielectric geometry
+          </li>
+
+          <li>
+            <strong>Photonic crystal</strong>: Compute the modes supported by a periodic structure
+          </li>
+
+          <li>
+            <strong>Modulator</strong>: Compute the steady-state field profile of an active device whose refractive index is modulated in time
+          </li>
+
+          <li>
+            <strong>Waveguide mode</strong>: Compute the modal profile of a waveguide given its 2D cross section geometry
+          </li>
+
+
+        </ul>
+
+      </p>
+
+      <p>
+        More details can be found <a class="text-link" href="https://github.com/YuJerryShi/fdfd_suite"> here</a>.
+      </p>
+
+
+      <!-- images -->
+      <table width="800" align="center">
+        <td align = "center">
+          <img src="software_images/ring_res.GIF" width="300" />
+        </td>
+
+      </table>
+    </div>
+
+
+    <!-- Memetic algorithm --> 
+    <div class="home-contents">
+
+      <h3> 
+        Memetic algorithm thin-film optimization
+      </h3>
+
+      <p>
+        This package can be used to design broadband thin-film spectral filters. Given a target spectrum, the number of layers, and a list of dispersive materials, the algorithm performs a mixed-integer optimization using the memetic algorithm to generate a multi-layer stack with various materials and thicknesses that matches with the target spectrum. 
+      </p>
+
+      <p>
+        To access the repository, and for more information on how to use this package, please check out <a class="text-link" href="https://github.com/YuJerryShi/thin_film_memetic_optimization>"> this link</a>.
+      </p>
+
+
+      <!-- images -->
+      <table width="800" align="center">
+        <td align="center">
+          <img src="software_images/rad_cool.PNG" width="600" />
+        </td>
+
+        <td>
+          
+        </td>
+
+      </table>
+    </div>
 
 
     <!-- Footnote -->
